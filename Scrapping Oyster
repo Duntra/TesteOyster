@@ -40,6 +40,8 @@ def funcao():
         vers = 'Versão HTML 4.01'
     elif re.search('HTML 3.2', r.text):
         vers = 'Versão HTML 3.2'
+    else:
+        vers = 'Versão não encontrada'
 
     # Aqui aplico a GUI os resultados referentes ao título da página e versão do documento
     guilabel4 = Label(gui, text=vers)
