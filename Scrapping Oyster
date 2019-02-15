@@ -5,7 +5,6 @@ import urllib
 import requests
 from tkinter import *
 from bs4 import BeautifulSoup as soup
-funcao = []
 gui=Tk()
 bot = StringVar()
 #################### Aqui crio o básico da GUI#####################################
